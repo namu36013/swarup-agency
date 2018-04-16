@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.admin.agency.total">
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/textView9"
+        android:layout_marginStart="74dp"
+        android:layout_marginTop="21dp"
+        android:text="product_discription"
+        android:textColor="@android:color/background_dark"
+        android:textSize="24sp"
+        android:textStyle="italic"
+        tools:ignore="UnknownId" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/textView2"
+        android:layout_below="@+id/textView4"
+        android:layout_marginTop="56dp"
+        android:text="Colgate_Total"
+        android:textAlignment="center"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/textView8"
+        android:layout_marginStart="18dp"
+        android:layout_marginTop="56dp"
+        android:text="Price_65rs"
+        android:textAlignment="center"
+        android:textSize="24sp" />
+
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView2"
+        android:layout_marginTop="45dp"
+        android:layout_toEndOf="@+id/textView2"
+        android:background="@android:drawable/checkbox_off_background"
+        android:text="buynow" />
+
+
+
+</RelativeLayout>

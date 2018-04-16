@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="image1" type="id">img1</item>
+
+    <item name="image3" type="id">img3</item>
+    <item name="image2" type="id">img2</item>
+    <item name="image5" type="id">img5</item>
+    <item name="image4" type="id">img4</item>
+    <item name="image6" type="id">img6</item>
+    <item name="image7" type="id">img7</item>
+    <item name="image8" type="id">img8</item>
+    <item name="image9" type="id">img9</item>
+    <item name="image10" type="id">img10</item>
+    <item name="image11" type="id">img11</item>
+    <item name="image12" type="id">img12</item>
+
+
+    <item name="editText3" type="id">edit3</item>
+    <item name="editText4" type="id">edit4</item>
+    <item name="Add" type="id">add</item>
+
+    <item name="button2" type="id">btn2</item>
+    <item name="nav_Contact_us" type="id">contact_us</item>
+</resources>
